@@ -18,7 +18,7 @@ public class Frame extends javax.swing.JFrame {
     public Frame() {
         initComponents();
         setIconImage(new ImageIcon(getClass().getResource("iconos/IconoDeudas.png")).getImage());
-        this.setSize(370, 260);
+        this.setSize(400, 400);
         this.setResizable(false);
     }
 
